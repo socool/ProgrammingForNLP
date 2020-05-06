@@ -1,0 +1,16 @@
+The New York Times Releases Its Dataset of U.S. Confirmed Coronavirus Cases
+The Times has made public its comprehensive dataset of coronavirus cases in the United States to help researchers, scientists, government officials and businesses better understand the virus and model what may come next.
+
+Today, The New York Times has made one of the most comprehensive datasets of coronavirus cases in the United States publicly available in response to requests from researchers, scientists, government officials and businesses who would like access to the data to better understand the virus and model what may come next.
+
+The Times initially began tracking cases in late January after it became clear that no federal government agency was providing the public with an accurate, up-to-date record of cases, tracked to the county level, of people in the U.S. who had tested positive for the virus.
+
+The Times led effort has grown from a handful of correspondents to a team of several dozen journalists, including data scientists and student journalists from Northwestern University, the University of Missouri and the University of Nebraska-Lincoln, working around the clock to record details about every case. The Times is committed to collecting as much data as possible in connection with the outbreak and is collaborating with the University of California, Berkeley, on an effort in California.
+
+By Friday, March 27, The Times had tracked more than 85,000 cases in all 50 states, the District of Columbia and three U.S. territories, over the past eight weeks. More than 1,200 people in the U.S. have died so far.
+
+“We hope the dataset can help inform the ongoing public health response to the pandemic and ultimately, save lives,” said Dean Baquet, executive editor, The New York Times. “We believe the data may help reveal how Covid-19 has spread through communities and clusters; which geographic areas may be hit the hardest; and how its spread in hard-hit areas may offer clues for regions that could face wider outbreaks in the future.”
+
+Over months, our journalists have recorded the details on newly confirmed cases as reported by state and local officials. Early on, the number of cases was relatively low, and the cases mainly involved people who had traveled outside the United States. As testing, which had been delayed by a variety of problems, became more widely available, the number of confirmed cases grew quickly. The virus began to appear among Americans who had not traveled, demonstrating the virus spreading widely within the U.S.
+
+The Times dataset, which is available here, can be used for noncommercial purposes with attribution.
