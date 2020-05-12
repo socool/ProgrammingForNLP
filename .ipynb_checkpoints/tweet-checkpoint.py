@@ -15,3 +15,7 @@ class Tweet:
     #parameter self for send self data
     def get_character_count(self):
         return len(self.text)
+    
+    @classmethod
+    def cut_off_like_tweet(cls,text_string):
+        return text_string[0:cls.MAX_CHARS]
