@@ -1,5 +1,8 @@
 #Class
 class Tweet:
+    #class constant
+    MAX_CHARS = 140
+    
     #constructor
     def __init__(self,twitter_id,text,coordinate):
         self.twitter_id = twitter_id
