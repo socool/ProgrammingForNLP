@@ -1,20 +1,26 @@
 import spacy
+import collections
 
-LANG_TO_PROCESSOR = {
-    'en':spacy.load('en',disable=['parser','ner']),
-    'fr':spacy.load('fr',disable=['parser','ner'])
-}
 
 class CorpusAnalyzer:
-    def __init__(self,file_name,language):
+    def __init__(self,file_name,language,processor):
         self.file_name = file_name
         self.language = language
+        self.processor = processor
         data_file = open(file_name)
         self.sentences = []
         processor = LANG_TO_PROCESSOR[self.language]
         
         for line in data_file:
-            self.sentences.append(list(processor(line.strip())))
+            self.sentences.append(list(self.processor(line.strip())))
     
     def get_num_sentences(self):
         return len(self.sentences)
+    
+    def get_most_common_tag(self):
+        pos_counter = collections.Counter()
+        for sentence in self.sentences:
+            for word in sentence:
+                pos_counter[word.tag_] += 1
+        return pos_counter.most_common()
+                
