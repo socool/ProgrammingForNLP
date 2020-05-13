@@ -1,8 +1,16 @@
 class TextContainer:
+    
+    STOP_WORD_LIST = set(['a','a','the','in','of'])
+    
     def __init__(self):
         pass
+    
     def get_word_count(self):
         return len(self.text.split(' '))
+    
+    def get_text_without_stop_words(self):
+        return [x for x in self.text.split(' ')if x not in self.STOP_WORD_LIST]
+    
 class Tweeter(TextContainer):
     def __init__(self,text,user_id,location):
         self.text = text
@@ -14,5 +22,3 @@ class SubTitleLine(TextContainer):
         self.text = text
         self.timestamp = timestamp
         self.source = source
-    def get_text_without_stop_words(self):
-        pass
