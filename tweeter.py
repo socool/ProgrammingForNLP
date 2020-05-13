@@ -12,6 +12,7 @@ class TextContainer:
         return [x for x in self.text.split(' ')if x not in self.STOP_WORD_LIST]
     
 class Tweeter(TextContainer):
+    STOP_WORD_LIST = set(['in','of'])
     def __init__(self,text,user_id,location):
         self.text = text
         self.user_id = user_id
