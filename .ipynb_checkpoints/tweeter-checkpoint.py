@@ -1,6 +1,9 @@
 class TextContainer:
     
     STOP_WORD_LIST = set(['a','a','the','in','of'])
+    #add variable convention
+    text = ''
+    source = ''
     
     def __init__(self):
         pass
